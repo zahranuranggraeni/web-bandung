@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quiksand:wght@400;500;700display=swap');
+
+body {
+    font-family: 'Quiksand', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color:antiquewhite;
+    padding-top: 30px;
+}
+
+ body > header {
+    background-color:rgb(192, 20, 106);
+}
+header > p {
+    color:magenta;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: hotpink;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content {
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba( 0, 0, 0, 0.28);
+    border-radius: 12px;
+    padding: 15px;
+}
+aside {
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.28);
+    border-radius: 12px;
+}
+
+aside header h2 {
+    color:blueviolet;
+    text-align: center;
+}
+
+#sejarah p {
+    padding: 15px;
+}
+
+#geografis p {
+    padding: 15px;
+}
+
+#wisata p {
+    padding: 15px;
+}
